@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Node server</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Info form</legend>
+        <h3>Change user data</h3>
+        <form action="http://localhost:8080/infoup" method = 'post'>
+            <label for = "name">Name:</label>
+            <input type = "text" name = 'from_firstname' id = 'from_name' />
+            <label for = "lastname">Lastname:</label>
+            <input type = "text" name = 'from_lastname' id = 'from_lastname'/>
+            <label for = "name">Name:</label>
+            <input type = "text" name = 'to_firstname' id = 'to_name' />
+            <label for = "lastname">Lastname:</label>
+            <input type = "text" name = 'to_lastname' id = 'to_lastname'/>
+            <input type = 'submit' value = 'Save' id = "b" onmouseover="document.getElementById('b').style.color = 'green'" onmouseleave="document.getElementById('b').style.color = 'red'">
+        </form>
+    </fieldset>
+</body>
+</html>

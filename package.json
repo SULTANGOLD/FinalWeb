@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.1",
+  "description": "Final project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SULTANGOLD/FinalProject.git"
+  },
+  "author": "Sultan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SULTANGOLD/FinalProject/issues"
+  },
+  "homepage": "https://github.com/SULTANGOLD/FinalProject#readme",
+  "dependencies": {
+    "mongoose": "^5.8.3",
+    "nodemon": "^2.0.2"
+  }
+}

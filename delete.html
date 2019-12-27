@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Node server</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Info form</legend>
+        <h3>Delete User</h3>
+        <form action="http://localhost:8080/infoDel" method = 'post'>
+            <label for = "name">Name:</label>
+            <input type = "text" name = 'firstname' id = 'name' />
+            <label for = "lastname">Lastname:</label>
+            <input type = "text" name = 'lastname' id = 'lastname'/>
+            <label for = "email">Email:</label>
+            <input type = "email" name = 'email' id = 'email'/>
+            <label for = "password">Password:</label>
+            <input type = "password" name = 'password' id = 'password'/>
+            <input type = 'submit' value = 'Save' onmouseover="document.getElementById('b').style.color = 'green'" onmouseleave="document.getElementById('b').style.color = 'red'">
+        </form>
+    </fieldset>
+</body>
+</html>
